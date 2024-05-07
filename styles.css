@@ -53,5 +53,25 @@ form{
     margin: 10px 0;
     border: 2px solid #df4adf;
     border-radius: 50px;
+    align-items: center;
+    display: flex;
+}
+
+.input-field i{
+    flex: 1;
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+}
+
+.input-field input {
+    flex: 5;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
 }
 
