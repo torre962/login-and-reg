@@ -178,6 +178,7 @@ a {
 .image{
     width: 100%;
 }
+/*
 .container.sign-up-mode:before{
     transform: translateX(0);
 
