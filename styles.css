@@ -206,6 +206,9 @@ a {
 .left-panel .content{
     transform: translateX(-200%);
 }
+.account-text {
+    display: none;
+}
 
 .right-panel .image,
 .right-panel .content{
@@ -258,7 +261,28 @@ a {
     form.sign-up-form{
         display: none;
     }
+    .container.sign-up-mode2 form.sign-up-form{
+        display: flex
+    }
+    .container.sign-in-mode2 form.sign-in-form{
+        display: none;
+
+    }
     .panels-container{
         display: none;
     }
+    .account-text {
+        display: initial;
+        margin-top: 30px;
+    }
+    
+}
+
+
+@media(max-width:320px){
+    form{
+        width: 0%;
+
+    }
+
 }
