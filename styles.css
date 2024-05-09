@@ -241,3 +241,24 @@ a {
 .container.sign-up-mode .left-panel {
     pointer-events: all;
 }
+
+@media (max-width:779px){
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+}
+@media(max-width:635px){
+    .container::before {
+        display: none;
+    }
+    form {
+        width: 80%;
+    }
+    form.sign-up-form{
+        display: none;
+    }
+    .panels-container{
+        display: none;
+    }
+}
